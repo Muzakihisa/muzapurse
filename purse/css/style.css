@@ -1,0 +1,81 @@
+body, html
+{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    color: #222;
+}
+
+p, h1, h2, h3, h4, h5, h6, .brand-logo
+{
+    font-family: 'Roboto Slab', serif;
+}
+
+.my_fullscreen_header
+{
+    /* The image used */
+  background-image: url("https://www.wallpaperu3.com/wp-content/mywallpapers/city-grayscale-4k-wallpaper-1600x1200.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+}
+
+.my_inner_container
+{
+    margin: 2.5em;
+}
+
+.my_sheet
+{
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    margin: 1em;
+}
+
+.my_saldo
+{
+    margin-top: 0em;
+    padding: 16px;
+    color: #FFF;
+    background-color: #222;
+}
+
+.my_navbar
+{
+    border-bottom: 1px solid #CCC;
+    padding: 0.25em;
+    padding-top: 0em;
+    padding-left: 2em;
+    width: 100%;
+}
+
+.my_separator
+{
+    color: #CCC;
+}
+
+.brand-logo
+{
+    margin-left: 1em;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 600px)
+{
+    .brand-logo
+    {
+        margin-left: 0em;
+    }
+    
+    .my_inner_container
+    {
+        margin: 1em;
+    }
+}
