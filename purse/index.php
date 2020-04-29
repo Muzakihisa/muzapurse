@@ -19,7 +19,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
             <a href="login.php" class="waves-effect waves-light btn"><i class="material-icons left">account_box</i><?=$login_link_text?></a>
             <a href="register.php" class="waves-effect waves-light btn"><i class="material-icons left">add_box</i><?=$register_link_text?></a>
             <br><br>
-            <a target="_blank" href="https://github.com/Muzakihisa/muzapurse" class="waves-effect waves-light btn"><i class="material-icons left">code</i>GitHub</a>
+            <a target="_blank" href="https://github.com/Muzakihisa/muzapurse" class="waves-effect waves-light btn" style="margin-left: 4em"><i class="material-icons left">code</i>GitHub</a>
         </div>
     </div>
 </body>
