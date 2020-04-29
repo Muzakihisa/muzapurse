@@ -1,0 +1,1 @@
+<p style="margin-top: 2em; color: #CCC; text-align: center">&copy; <?php echo date("Y"); ?>  <?=$page_author_name?></p>
